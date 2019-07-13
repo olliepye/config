@@ -118,4 +118,3 @@ fi
 
 # Update and upgrade alias
 alias U='sudo apt update; sudo apt upgrade -y'
-alias pi='sudo ssh pi@10.0.0.17'
