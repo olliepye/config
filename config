@@ -184,7 +184,7 @@ new_window pixel 2
 for_window [class="^MATLAB" title="^Fig"] floating enable
 
 # wall paper
-exec --no-startup-id feh --bg-scale ~/Pictures/wallpaper.jpg
+exec --no-startup-id feh --bg-scale ~/Dropbox/wallpaper.jpg
 
 # i3 lock screen
 bindsym $mod+Shift+x exec i3lock
@@ -195,3 +195,6 @@ bindsym $mod+F3 exec --no-startup-id xrandr --output HDMI-2 --off --output HDMI-
 
 # Transparent Terminal
 exec --no-startup-id compton
+
+# redshift
+exec --no-startup-id redshift
