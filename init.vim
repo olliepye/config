@@ -28,5 +28,6 @@ call plug#begin()
 	Plug 'vim-airline/vim-airline'
     Plug 'lervag/vimtex'
     Plug 'klen/python-mode'
-    Plug 'scrooloose/syntastic'
+    Plug 'rafi/awesome-vim-colorschemes'
+    "Plug 'scrooloose/syntastic'
 call plug#end()
