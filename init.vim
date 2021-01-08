@@ -3,7 +3,12 @@ set number
 set expandtab ts=4 sw=4 ai
 
 filetype plugin indent on
-syntax on
+syntax on " Enable syntax highlighting
+"set mouse=a "enable mouse usage
+set smartindent
+set autoindent
+set noshowmode
+set scrolloff=10
 
 
 set title
@@ -29,5 +34,12 @@ call plug#begin()
     Plug 'lervag/vimtex'
     Plug 'klen/python-mode'
     Plug 'rafi/awesome-vim-colorschemes'
+    Plug 'neoclide/coc.nvim'
+    Plug 'scrooloose/nerdtree'
+    Plug 'lilydjwg/colorizer'
     "Plug 'scrooloose/syntastic'
+    "ranger
+    "colorizer
+    "which key
+    "fcf'
 call plug#end()
