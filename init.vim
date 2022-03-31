@@ -17,6 +17,7 @@ set foldmethod=indent
 set foldlevel=99
 
 nnoremap <space> za
+nnoremap <C-T> :vsplit term://bash <CR> " open terminal split screen
 
 
 " Latex 
